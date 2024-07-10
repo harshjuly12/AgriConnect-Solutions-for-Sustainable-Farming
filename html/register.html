@@ -1,0 +1,90 @@
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+</HEAD>
+
+<SCRIPT LANGUAGE=JAVASCRIPT>
+var currentDate = new Date();
+var date1 = currentDate.getDate();
+var mon = currentDate.getMonth()+1;
+var year = currentDate.getYear();
+var today = date1+"/"+mon+"/"+year;
+var filePath = "C:\Users\Izzy\Desktop\123456.xlsx";
+function setDate()
+{
+f1.tDate.value=today;
+}
+
+function saveToExcel()
+{
+var myApp = new ActiveXObject("Excel.Application");
+myApp.visible = true;
+var xlCellTypeLastCell = 11;
+
+var myWorkbook = myApp.Workbooks.Open(C:\xampp\htdocs\heavens\book1.xlsx);
+var myWorksheet = myWorkbook.Worksheets(1);
+myWorksheet.Activate;
+objRange = myWorksheet.UsedRange;
+
+
+objRange.SpecialCells(xlCellTypeLastCell).Activate ;
+newRow = myApp.ActiveCell.Row + 1;
+alert('newRow : '+newRow);
+strNewCell = "A" + newRow;
+alert('strNewCell : '+ strNewCell);
+myApp.Range(strNewCell).Activate;
+myWorksheet.Cells(newRow,1).value = f1.tDate.value;
+myWorksheet.Cells(newRow,2).value = f1.tCaller.value;
+myWorksheet.Cells(newRow,3).value = f1.tProduct.value;
+myWorksheet.Cells(newRow,4).value = f1.tNatureOfProblem.value;
+myWorksheet.Cells(newRow,5).value = f1.tSolutions.value;
+myWorksheet.Cells(newRow,6).value = f1.tStatus.value;
+myWorksheet.Cells(newRow,7).value = f1.tRemark.value;
+myApp.Workbooks.Close;
+myApp.Close;
+alert('Data successfully saved');
+}
+
+
+</SCRIPT>
+<BODY onLoad='setDate();'>
+<form name="f1" method="post">
+<h align="center"><b>Daily Report</b></h>
+
+<table border="1" width="1000">
+<tr>
+<td width="250" height="25"></td>
+<td width="200" class="tb_bor" align="center"><b>Date</b></td>
+<td width="100" class="tb_bor" align="center"><b>Caller</b></td>
+<td width="100" class="tb_bor" align="center"><b>Product</b></td>
+<td width="150" class="tb_bor" align="center"><b>Nature Of Problem</b></b></td>
+<td width="100" class="tb_bor" align="center"><b>Solutions</b></td>
+<td width="100" class="tb_bor" align="center"><b>Status</b></td>
+<td width="100" class="tb_bor" align="center"><b>Remark</b></td>
+<td width="250"></td>
+</tr>
+<tr>
+<td width="250" height="25"></td>
+<td width="200" class="tb_bor" align="center"><input type=text name=tDate ></td>
+<td width="100" class="tb_bor" align="center"><input type=text name="tCaller" ></td>
+<td width="100" class="tb_bor" align="center"><input type=text name="tProduct" ></td>
+<td width="150" class="tb_bor" align="center"><input type=text name="tNOP" ></td>
+<td width="100" class="tb_bor" align="center"><input type=text name="tSolutions" ></td>
+<td width="100" class="tb_bor" align="center"><input type=text name="tStatus" ></td>
+<td width="100" class="tb_bor" align="center"><input type=text name="tRemark" ></td>
+<td width="250"></td>
+</tr>
+</table>
+<br>
+<table align="center">
+<input type="button" name="next" value="Next">
+<input type="reset" name="clear" value="Clear">
+<input type="button" name=save value="Save" onClick='saveToExcel();'>
+</table>
+</form>
+</BODY>
+</HTML>

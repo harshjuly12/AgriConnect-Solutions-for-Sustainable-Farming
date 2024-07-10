@@ -1,0 +1,43 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Admin Login</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/sign.css">    
+</head>    
+<body>    
+    <h2>Admin Login</h2><br>    
+    <div class="login">    
+	
+    <form  name="loginform" action="admin.html">
+	<label><b>User Name     
+        </b>    
+		</label><br>
+  <input  type="text" name="user_name" placeholder="Username"/>
+  <br><br>    
+        <label><b>Password     
+        </b>    
+        </label> <br>
+  <input  type="password" name="pass_word"placeholder="password"/>
+  <br><br> 
+ <input  type="button" value="login"  onclick="login()"/>
+</form>
+
+	<script>
+  function login(){
+        var user = document.loginform.user_name.value;
+        var pass = document.loginform.pass_word.value;
+  if(user == "" || pass == ""){
+          alert("sorry...Please Enter Username and Passowrd");
+     }else{
+  if((user == "harsh" || user == "Assad" || user == "priya" || user == "shrusti") && pass == "123"){
+          document.loginform.submit();
+    }else{
+         alert("Please Enter Correct Credentials");
+  }
+       }
+           }
+</script>
+</div>    
+</body>    
+</html>     
