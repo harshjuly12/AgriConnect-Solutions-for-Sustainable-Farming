@@ -1,7 +1,7 @@
 <table>
   <tr>
-    <td><img src="https://github.com/harshjuly12/i-Kisaan-Solutions-for-Sustainable-Farming/assets/112745312/aed033d6-5d59-497b-a415-a70bbd126509" width="400" style="margin-right: 10;"></td>
-    <td><h1 style="margin: 0;">i-Kisaan: Solutions for Sustainable Farming </h1></td>
+    <td><img src="https://github.com/harshjuly12/i-Kisaan-Solutions-for-Sustainable-Farming/assets/112745312/ac8b28d6-9d12-4bd6-bc1c-831b94df6bed" width="400" style="margin-right: 10;"></td>
+    <td><h1 style="margin: 0;">i-Kisaan: Solutions for Sustainable Farming</h1></td>
   </tr>
 </table>
 
@@ -63,15 +63,14 @@ i-Kisaan is an online platform focused on empowering local farmers through digit
 ## Screenshots
 
 ### i-Kisaan Platform Screenshots
-![Screenshot 2024-07-09 194317](https://github.com/harshjuly12/i-Kisaan-Solutions-for-Sustainable-Farming/assets/112745312/71ff16c8-1d62-40bf-a38f-4322296bb801)
-![Screenshot 2024-07-09 194341](https://github.com/harshjuly12/i-Kisaan-Solutions-for-Sustainable-Farming/assets/112745312/83acbca8-69fb-416c-9345-e4e952f8a35f)
+![Screenshot 2024-07-09 194317](https://github.com/harshjuly12/i-Kisaan-Solutions-for-Sustainable-Farming/assets/112745312/0176b3a8-e906-4c57-81a8-a56aecfcce29)
+![Screenshot 2024-07-09 194341](https://github.com/harshjuly12/i-Kisaan-Solutions-for-Sustainable-Farming/assets/112745312/8ddcca0b-a12c-4496-b235-8cdef9fe067b)
 
 ### WordPress Screenshots
 **Visit the [WordPress page](https://coms752.wordpress.com/) for more details.**
 
-![Screenshot 2024-07-09 194536](https://github.com/harshjuly12/i-Kisaan-Solutions-for-Sustainable-Farming/assets/112745312/626cbfd5-48ac-444a-8aa5-64e54087ef2a)
-![Screenshot 2024-07-09 194602](https://github.com/harshjuly12/i-Kisaan-Solutions-for-Sustainable-Farming/assets/112745312/11db697f-d815-4194-bdfe-444c4d26f721)
-
+![Screenshot 2024-07-09 194536](https://github.com/harshjuly12/i-Kisaan-Solutions-for-Sustainable-Farming/assets/112745312/80459f82-7d39-4a53-a4d6-ca3a68b15641)
+![Screenshot 2024-07-09 194602](https://github.com/harshjuly12/i-Kisaan-Solutions-for-Sustainable-Farming/assets/112745312/34f2c092-e91d-4c5f-b9a4-0987b0a95b8b)
 
 ## Future Scope
 
