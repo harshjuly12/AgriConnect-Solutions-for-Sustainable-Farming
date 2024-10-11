@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td><img src="https://github.com/harshjuly12/i-Kisaan-Solutions-for-Sustainable-Farming/assets/112745312/ac8b28d6-9d12-4bd6-bc1c-831b94df6bed" width="400" style="margin-right: 10;"></td>
-    <td><h1 style="margin: 0;">i-Kisaan: Solutions for Sustainable Farming</h1></td>
+    <td><h1 style="margin: 0;">AgriConnect: Solutions for Sustainable Farming</h1></td>
   </tr>
 </table>
 
@@ -19,7 +19,7 @@
 
 
 ## Introduction
-i-Kisaan is an online platform focused on empowering local farmers through digital agriculture and sustainable farming practices. The platform offers various services such as soil analysis, buying pesticides and fertilizers, access to government portals, and training centers. 
+AgriConnect is an online platform focused on empowering local farmers through digital agriculture and sustainable farming practices. The platform offers various services such as soil analysis, buying pesticides and fertilizers, access to government portals, and training centers. 
 
 **Visit the [WordPress page](https://coms752.wordpress.com/) for more details.**
 
@@ -40,8 +40,8 @@ i-Kisaan is an online platform focused on empowering local farmers through digit
 ## Installation
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/i-Kisaan.git
-    cd i-Kisaan
+    git clone https://github.com/your-username/AgriConnect.git
+    cd AgriConnect
     ```
 
 2. **Set up the local server:**
@@ -58,19 +58,19 @@ i-Kisaan is an online platform focused on empowering local farmers through digit
     - Open XAMPP or WAMP and start the Apache and MySQL services.
 
 2. **Access the platform:**
-    - Open a web browser and go to `http://localhost/i-Kisaan`.
+    - Open a web browser and go to `http://localhost/AgriConnect`.
 
 ## Screenshots
 
-### i-Kisaan Platform Screenshots
+### AgriConnect Platform Screenshots
 ![Screenshot 2024-07-09 194317](https://github.com/harshjuly12/i-Kisaan-Solutions-for-Sustainable-Farming/assets/112745312/0176b3a8-e906-4c57-81a8-a56aecfcce29)
-![Screenshot 2024-07-09 194341](https://github.com/harshjuly12/i-Kisaan-Solutions-for-Sustainable-Farming/assets/112745312/8ddcca0b-a12c-4496-b235-8cdef9fe067b)
 
 ### WordPress Screenshots
 **Visit the [WordPress page](https://coms752.wordpress.com/) for more details.**
 
-![Screenshot 2024-07-09 194536](https://github.com/harshjuly12/i-Kisaan-Solutions-for-Sustainable-Farming/assets/112745312/80459f82-7d39-4a53-a4d6-ca3a68b15641)
-![Screenshot 2024-07-09 194602](https://github.com/harshjuly12/i-Kisaan-Solutions-for-Sustainable-Farming/assets/112745312/34f2c092-e91d-4c5f-b9a4-0987b0a95b8b)
+![Screenshot 2024-10-11 171754](https://github.com/user-attachments/assets/a305b018-c558-4c59-aabc-209db8e2e1fc)
+![Screenshot 2024-10-11 171804](https://github.com/user-attachments/assets/30271b03-d572-4e57-802c-dfba8dd13ea6)
+
 
 ## Future Scope
 
